@@ -3,7 +3,7 @@
 }
 
 body {
-  color: snow;;
+  color: snow;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,35 +11,33 @@ body {
   height: 90vh;
   margin: 0;
   background-color: #7841BE;
+}
 
-  & .centrado {
-    display: flex;
-    gap: 5%;
-    width: 200px;
-    height: 50px; 
+.centrado {
+  display: flex;
+  gap: 5%;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  line-height: 200px;
+}
 
-    text-align: center;
-    line-height: 200px;
+.centrado h1 {
+  color: white;
+}
 
-    & h1 {
-      color: white;
-    }
+.centrado button {
+  font-weight: bolder;
+  background-color: rgba(255, 255, 255, 0.532);
+  border: 1px solid white;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
-    & button {
-      font-weight: bolder;
-      background-color: rgba(255, 255, 255, 0.532);
-      border: 1px solid white;
-      width: 100px;
-      height: 50px;
-      border-radius: 5px;
-      cursor: pointer;
-      
-    }
-
-    & #trampa {
-      animation: foccus .7s alternate infinite;
-    }
-  }
+#trampa {
+  animation: foccus .7s alternate infinite;
 }
 
 @keyframes foccus {
@@ -52,6 +50,3 @@ body {
     box-shadow: 0px 0px 10px rgb(255, 255, 255);
   }
 }
-
-
-
