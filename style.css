@@ -3,6 +3,7 @@
 }
 
 body {
+  color: snow;;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,6 +20,10 @@ body {
 
     text-align: center;
     line-height: 200px;
+
+    & h1 {
+      color: white;
+    }
 
     & button {
       font-weight: bolder;
